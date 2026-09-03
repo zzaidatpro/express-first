@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Barre de navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a252f;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-item {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-item:hover {
+  background-color: #34495e;
+}
+
+/* Lien de la page actuelle */
+.nav-item.active {
+  background-color: #3498db;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Contenu de la page */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
